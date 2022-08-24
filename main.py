@@ -86,8 +86,8 @@ if inc >= day_one_open or dec >= day_one_open:
     message = sms_client.messages \
         .create(
         body=alert,
-        from_="+19896238579",
-        to="+13365758369"
+        from_=send_num,
+        to=rec_num
     )
 
 else:
